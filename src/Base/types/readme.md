@@ -28,6 +28,21 @@ string
 */
 ```
 
+## Inferes types, and after a value
+
+You can inferes the type in variable, and after a value, typescript can this!
+
+```ts
+let loading: boolean;
+loading = false;
+
+let email: string;
+email = "joao@email.com";
+
+let price: number;
+price = 10.50;
+```
+
 ---
 
 ## Types in ***interface***, ***class***, and ***object***
