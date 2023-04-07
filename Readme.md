@@ -6,6 +6,10 @@ A repository to learn a superset for language JavaScript, in types, feactures an
 
 - Errors: For undestand a prevent errors that typescript recept in console and helps de devs in world to prevent errors in dev ambient!
 
+- Interface: An interface is a syntactical contract that an entity should conform to. In other words, an interface defines the syntax that any entity must adhere to.
+
+- Object's: A way for understand how objects to comport in superset.
+
 ---
 
 
