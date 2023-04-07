@@ -30,6 +30,3 @@ const user: User = {
         return "It's on code! ;)";
     }
 };
-
-let message: string = 'Hello World';
-console.log(message);

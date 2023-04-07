@@ -1,2 +1,2 @@
-const a: number = 5;
-console.log(a)
+let message: string = 'Hello World';
+console.log(message);
