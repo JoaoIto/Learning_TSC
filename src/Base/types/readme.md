@@ -30,7 +30,7 @@ string
 
 ---
 
-## Types in interface, class, and object
+## Types in ***interface***, ***class***, and ***object***
 
 We can inferres the types in differents paradigams inside the language, for example:
 
