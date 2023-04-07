@@ -79,3 +79,13 @@ User {
   isCoding: true
 }
 */
+
+
+let loading: boolean;
+loading = false;
+
+let email: string;
+email = "joao@email.com";
+
+let price: number;
+price = 10.50;
