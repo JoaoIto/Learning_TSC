@@ -38,3 +38,35 @@ npx tsc
 
 ---
 
+## [How to use](https://www.youtube.com/watch?v=aTf8QTjw4RE&t=1646s&ab_channel=Rocketseat)
+
+I use video of Rocketseat for build a project base TypeScript.
+
+- Install a base ``package.json`` with:
+
+```
+npm init -y
+```
+
+- [Install sucrase](https://github.com/alangpierce/sucrase):
+
+A package for build and compiling fast a files ts, for js, a compiling node!
+```
+npm install -D sucrase
+```
+
+- Add script dev and build in ``package.json``:
+
+```json
+"scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript, imports",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+
+This command, **your project can be used and compiling typescript!** 
+
+
+
+
