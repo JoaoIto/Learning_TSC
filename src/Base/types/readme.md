@@ -29,3 +29,70 @@ string
 ```
 
 ---
+
+## Types in interface, class, and object
+
+We can inferres the types in differents paradigams inside the language, for example:
+
+- We have that to construct a User, and he needs have a some information, about(name, age, email, etc). In ***TypeScript*** **we can intercept errors in code when I inferres the types!**
+
+```ts
+// In object, class and, interface types
+
+// Creating a interface types;
+interface User {
+    name: string,
+    email: string,
+    age: number,
+    isCoding: boolean
+}
+
+// Creating a class and constructor for object
+class User {
+    name: string;
+    email: string;
+    age: number;
+    isCoding: boolean;
+
+    constructor(name: string, email: string, age: number, isCoding: boolean){
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.isCoding = isCoding;
+    }
+}
+
+// Object in example:
+const user: User = new User("Joao", "joaovictorpfr@gmail.com", 17, true);
+
+console.log(user);
+```
+
+- **Result in console:**
+
+```ts
+User {
+  name: 'Joao',
+  email: 'joaovictorpfr@gmail.com',
+  age: 17,
+  isCoding: true
+}
+```
+
+And more! If we needs finds the types of information in object user, we can! With types in `console typeof`:
+
+```ts
+// Object in example:
+const user: User = new User("Joao", "joaovictorpfr@gmail.com", 17, true);
+
+console.log(user);
+console.log(typeof user.name, typeof user.age, typeof user.email, typeof user.isCoding)
+```
+
+- **Result:**
+
+```ts
+string, number, string, boolean
+```
+
+---
