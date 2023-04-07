@@ -24,9 +24,12 @@ const user: User = {
         this.coffee = coffee;
         this.music = music;
 
-        const animation;
+        let animation;
         animation = coffee + music;
 
         return "It's on code! ;)";
     }
 };
+
+let message: string = 'Hello World';
+console.log(message);
