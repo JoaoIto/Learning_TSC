@@ -29,6 +29,12 @@ TypeScript understands JavaScript and uses type inference to give you great tool
 
 ---
 
+## Why to use in your project:
+
+TypeScript andd ***static types*** in your project, and this can helps you to indetify errors for receive in recept in console in dev time, no more in run time. **This can helps you to dev your project best**, and more feacture that was add in superset JS!
+
+---
+
 ## [How to install:](https://www.typescriptlang.org/download)
 
 ### TypeScript in Your Project
