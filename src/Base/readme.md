@@ -68,5 +68,41 @@ npm install -D sucrase
 This command, **your project can be used and compiling typescript!** 
 
 
+But we use a **[nodemon](https://github.com/remy/nodemon)**.
+
+---
+***nodemon*** is a tool **that helps develop Node.js based applications by automatically restarting the node application when file changes** in the directory are detected.
+
+## With watch in nodemon
 
 
+- Install:
+
+```
+npm install --save-dev nodemon
+```
+
+- Condig file ``nodemon.json``:
+
+```json
+{
+    "watch": ["src"],
+    "ext": "ts",
+    "execMap": {
+        "ts": "sucrase-node src/index.ts"
+    }
+}
+
+```
+
+**Now, you can start, test and run build in ***--watch*** with nodemon**, so you can dev and test your files typescript! Have fun! ;)
+
+```
+npm run build
+```
+
+```
+npm run dev
+```
+
+---
