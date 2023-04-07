@@ -1,7 +1,14 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
     "target": "es5",
-    "module": "commonjs",
-    "sourceMap": true
-  }
+    "outDir": "wwwroot/js"
+  },
+  "include": [
+    "src/app/**/*"
+, "myObject.ts", "src/index.ts"  ]
 }
