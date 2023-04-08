@@ -8,7 +8,8 @@ interface IUsers {
 const users: IUsers[] = [];
 
 export function getUsers(){
-    return users;
+    // Retorna uma cópia dos objetos no array "users"
+    return users.map(user => ({...user}));
 }
 
 export function createUsers(user: IUsers){
