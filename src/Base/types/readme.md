@@ -1,4 +1,4 @@
-# [Types](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types) Doc in typescript site:
+# [Types](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html#defining-types) | Doc in typescript site:
 
 In typescript, a difference for a principal language, typescript, is your ***types***! In ***variable's***, in ***object's***, in ***interface's***!
 

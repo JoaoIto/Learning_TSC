@@ -1,6 +1,7 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
+    "esModuleInterop": true,
     "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": false,
@@ -9,6 +10,5 @@
     "outDir": "wwwroot/js"
   },
   "include": [
-    "src/app/**/*"
-, "myObject.ts", "src/index.ts"  ]
+    "src/app/**/*", "src/server.ts"  ]
 }
