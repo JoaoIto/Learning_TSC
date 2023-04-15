@@ -10,4 +10,6 @@ A repository to learn a superset for language JavaScript, in types, feactures an
 
 - Object's: A way for understand how objects to comport in superset.
 
+- **`server.ts`**: A file for build tests in server in a pp test Insomnia! 
+
 ---

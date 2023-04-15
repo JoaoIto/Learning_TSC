@@ -1,12 +1,11 @@
 import express from 'express';
-import {createUsers, getUsers} from './server/index'
+import {createUsers, getUsers} from '../server/index'
 
 const app = express();
 
 app.use(express.json());
 
 function start(): () => void {
-  // do something here
   return () => {
     console.log('Server started!');
   };
@@ -14,7 +13,6 @@ function start(): () => void {
 
 app.get('/users', (req, res) => {
     const users = getUsers();
-
     return res.json({users})
 })
 app.post('/user', (req, res) => {
