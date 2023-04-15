@@ -1,4 +1,4 @@
-class Car {
+export class Car {
   // Properties
   private static numberOfCars: number = 0; // New static property
   private _make: string;
