@@ -1,4 +1,4 @@
-import { Car } from './index'
+import { Car } from './Car'
 
 // Instantiate the Car object with all parameters
 let myCar1 = new Car('Cool Car Company', 'blue', 2);
