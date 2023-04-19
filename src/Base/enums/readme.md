@@ -1,4 +1,4 @@
-# [Enums](https://www.typescriptlang.org/docs/handbook/enums.html#:~:text=Enums%20are%20one%20of%20the%20few%20features%20TypeScript,cases.%20TypeScript%20provides%20both%20numeric%20and%20string-based%20enums.) no TypeScripy
+# [Enums](https://www.typescriptlang.org/docs/handbook/enums.html#:~:text=Enums%20are%20one%20of%20the%20few%20features%20TypeScript,cases.%20TypeScript%20provides%20both%20numeric%20and%20string-based%20enums.) no TypeScript
 
 Enums are one of the few features that TypeScript has, which is not a JavaScript type-level extension.
 
