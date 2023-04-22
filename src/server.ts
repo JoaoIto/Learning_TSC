@@ -1,6 +1,6 @@
 import express from 'express';
 import {createUsers, getUsers} from '../server/index'
-import { getInstanceCars } from './Classes/main'
+import { getInstanceCars } from './Base/Classes/main'
 
 const app = express();
 
