@@ -9,6 +9,7 @@ app.use(express.json());
 function start(): () => void {
   return () => {
     console.log('Server started!');
+    console.log('localhost:3333');
   };
 }
 
