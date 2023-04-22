@@ -8,7 +8,6 @@ var main_1 = require("./algorithms/run/main");
 var app = (0, express_1.default)();
 app.use(express_1.default.json());
 function start() {
-    // do something here
     return function () {
         console.log('Server started!');
     };
